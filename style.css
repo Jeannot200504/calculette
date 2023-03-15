@@ -1,0 +1,41 @@
+.container{
+    background-color: rgb(244, 247, 249);
+    padding: 20px;
+}
+
+.calculatrice {
+display: grid;
+grid-row: auto;
+background-color: rgb(6, 3, 50);
+border: 1px solid;
+border-radius: 5px;
+text-align: right;
+color: aliceblue;
+}
+  
+.bouton-haut{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+}
+
+
+.boutons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr)repeat(1, 1fr);
+    grid-gap: 5px;
+    padding: 5px;
+  }
+  
+.button {
+    background-color: #f6f0f0;
+    border: 1px solid #c1bebe;
+    border-radius: 3px;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+.button:active{
+    background-color: rgb(255, 255, 255);
+}
